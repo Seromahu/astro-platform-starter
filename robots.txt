@@ -1,6 +1,4 @@
-# Tüm botlara sitenizi taramalarını söyleyin
 User-agent: *
-Disallow: /admin/  # Admin sayfalarını taramayı engelleyin
-Allow: /           # Tüm diğer sayfalara izin verin
+Allow: /
 
-Sitemap: https://wooing-izmir.netlify.app/sitemap.xml  # Sitemap URL'si
+Sitemap: https://wooing-izmir.netlify.app/sitemap.xml
