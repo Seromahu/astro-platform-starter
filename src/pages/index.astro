@@ -20,3 +20,19 @@ Escort İzmir hizmetleri insanların günlük hayatlarına renk katmak, sosyal e
         <a href="https://wooizmir-pro.cdn.ampproject.org/c/s/wooizmir.pro/amp?ver=1/" class="btn btn-lg sm:min-w-64">GİRİŞ</a>
     </p>
 </Layout>
+
+---
+const title = "Dynamic Title"
+const description = "This description is generated dynamically from the frontmatter."
+---
+
+<html>
+  <head>
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <h1>{title}</h1>
+    <p>{description}</p>
+  </body>
+</html>
