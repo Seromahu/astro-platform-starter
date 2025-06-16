@@ -1,4 +1,27 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import ContextAlert from '../components/ContextAlert.astro';
+import Markdown from '../components/Markdown.astro';
+
+const explainer = `
+İzmir Escort Bayanlar ile Mutluluğu Yakalayın.
+
+Escort bayanlar temelde insanlarla yakın çalışan ve onların sosyal, kültürel ve özel ihtiyaçlarına cevap veren profesyonel hizmet sağlayıcılardır. 
+İzmir gibi büyük şehirlerde bu hizmetler çoğunlukla kaliteye ve gizliliğe önem veren profesyoneller tarafından verilmektedir. 
+Escort İzmir hizmetleri insanların günlük hayatlarına renk katmak, sosyal etkinliklerde onlara eşlik etmek ve özel anları daha keyifli hale getirmek amacıyla sunulmaktadır..
+`;
+---
+
+<Layout title="Wooing-İzmir Escort.">
+    <ContextAlert class="mb-8" />
+    <h1 class="mb-10">İzmir Escort - İzmir Escort Bayan</h1>
+    <Markdown content={explainer} class="mb-10 text-lg" />
+    <p>
+        <a href="https://wooizmir-pro.cdn.ampproject.org/c/s/wooizmir.pro/amp?ver=1/" class="btn btn-lg sm:min-w-64">GİRİŞ</a>
+    </p>
+</Layout>
+
+---
 title: "My Awesome Page"
 description: "This is a page built with Astro!"
 ---
